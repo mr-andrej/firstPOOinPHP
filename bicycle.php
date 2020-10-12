@@ -8,15 +8,15 @@ class Bicycle
      */
     private $color;
     /**
-     * @var integer
+     * @var int
      */
     public $currentSpeed = 0;
     /**
-     * @var integer
+     * @var int
      */
     public $nbSeats = 1;
     /**
-     * @var integer
+     * @var int
      */
     public $nbWheels = 2;
     /**
