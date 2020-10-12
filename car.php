@@ -6,29 +6,29 @@ class Car
     /**
      * @var string
      */
-    private $color;
+    private $color = "black";
     /**
-     * @var integer
+     * @var int
      */
     public $currentSpeed = 0;
     /**
-     * @var integer
+     * @var int
      */
-    public $nbSeats = 1;
+    public $nbSeats = 5;
     /**
-     * @var integer
+     * @var int
      */
     public $nbWheels = 2;
     /**
      * @var string
      */
-    public $fuelType;
+    public $fuelType = "diesel";
     /**
-     * @var integer
+     * @var int
      */
-    public $fuelLevel;
+    public $fuelLevel = 100; // Out of 100 (%)
 
-    public function __construct(string $color, integer $nbSeats, string $fuelType)
+    public function __construct(string $color, int $nbSeats, string $fuelType)
     {
         $this->color = $color;
         $this->nbSeats = $nbSeats;
